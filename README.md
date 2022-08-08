@@ -13,4 +13,21 @@ PROJECT OUTCOMES
 11. Visualizing using AWS QuickSight
 
 
+
+
+
+GENERAL PROJECT ARCHITECTURE AND DESIGN
+
 ![SYSTEM_DESIGN](https://user-images.githubusercontent.com/69304233/182819671-ff0f1b67-a3b1-4bef-a0bf-2231eaaab06f.PNG)
+
+
+
+
+
+
+CREATING AWS S3 BUCKET AND UPLOADING DATA 
+
+creating both AWS S3 and uploading data to S3 bucket can be done using AWS CLI or the AWS dashboard. 
+USing the AWS cli, data is uploaded using the command: AWS S3 CP /FILE_LOACATION
+
+![1](https://user-images.githubusercontent.com/69304233/183393565-12e8b95c-6e80-4359-a192-a3ce8aa810ea.PNG)
