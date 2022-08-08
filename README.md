@@ -35,3 +35,13 @@ USing the AWS cli, data is uploaded using the command: AWS S3 CP /FILE_LOACATION
 
 ![2](https://user-images.githubusercontent.com/69304233/183395819-dbaa4a35-fc9d-4a5e-a20c-28eaa148474b.PNG)
 
+
+DATA CLEANSING
+
+In this stage, we create a pipline that wrangle and cleans our data to remove erros, redundant data etc
+This pre-processing stage essentially inlvoves tranformin the data from semi-structured data to structured data for easier querying by AWS Athena
+AWS lambda works on the data processing in the S3 bucket and puts the puts the processed data into a new cleansed S3 bucket.
+
+![3](https://user-images.githubusercontent.com/69304233/183401177-9f458e3c-1c8c-4e51-899d-4339e9f1722a.PNG)
+
+
