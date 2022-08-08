@@ -31,3 +31,7 @@ creating both AWS S3 and uploading data to S3 bucket can be done using AWS CLI o
 USing the AWS cli, data is uploaded using the command: AWS S3 CP /FILE_LOACATION
 
 ![1](https://user-images.githubusercontent.com/69304233/183393565-12e8b95c-6e80-4359-a192-a3ce8aa810ea.PNG)
+
+
+![2](https://user-images.githubusercontent.com/69304233/183395819-dbaa4a35-fc9d-4a5e-a20c-28eaa148474b.PNG)
+
