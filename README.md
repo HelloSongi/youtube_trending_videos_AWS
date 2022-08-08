@@ -44,4 +44,7 @@ AWS lambda works on the data processing in the S3 bucket and puts the puts the p
 
 ![3](https://user-images.githubusercontent.com/69304233/183401177-9f458e3c-1c8c-4e51-899d-4339e9f1722a.PNG)
 
+![4](https://user-images.githubusercontent.com/69304233/183408698-542d5293-ff61-4de7-a775-900606f41132.PNG)
+
+
 
