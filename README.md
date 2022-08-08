@@ -17,7 +17,7 @@ PROJECT OUTCOMES
 
 GENERAL PROJECT ARCHITECTURE AND DESIGN
 
-![SYSTEM_DESIGN](https://user-images.githubusercontent.com/69304233/182819671-ff0f1b67-a3b1-4bef-a0bf-2231eaaab06f.PNG)
+![ARCHITECTURE](https://user-images.githubusercontent.com/69304233/183481878-a0c9b7d6-c611-4a31-8144-548a9789bc4e.PNG)
 
 
 
