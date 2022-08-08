@@ -3,14 +3,13 @@ PROJECT OUTCOMES
 1. Understanding the project Overview and Architecture
 2. ETL on Big Data
 3. Data Staging and Data Lake
-4. Creating IAM access Roles and Policies
-5. Creating AWS Lambda Functions
-6. Setting up Glue Jobs for ETL
-7. Using AWS Glue Crawler and AWS Glue Studio
-8. Creating Glue Data Catalog
-9. Converting JSON to Parquet format
-10. Performing Data Transformations (wrangling) and Joins
-11. Visualizing using AWS QuickSight
+4. Creating AWS Lambda Functions
+5. Setting up Glue Jobs for ETL
+6. Using AWS Glue Crawler and AWS Glue Studio
+7. Creating Glue Data Catalog
+8. Converting JSON to Parquet format
+9. Performing Data Transformations (wrangling) and Joins
+10. Visualizing using AWS QuickSight
 
 
 
@@ -51,3 +50,15 @@ After the data have tranformed from JSON to tabular form, we use AWS Athena to q
 
 ![5](https://user-images.githubusercontent.com/69304233/183411088-71df5c97-918c-4dbf-89e9-4487657faeda.PNG)
 
+
+MONITORING DIFFERENT JOBS ETL JOBS
+
+![6](https://user-images.githubusercontent.com/69304233/183475149-c543e484-69e3-4531-bd24-65aad2a5bba8.PNG)
+
+
+
+VISUALIZATION DATA IN AWS QUICKSIGHT
+
+![7](https://user-images.githubusercontent.com/69304233/183475309-c8ae4b32-1ba2-44bd-b41e-5ce4e868f522.PNG)
+
+![8](https://user-images.githubusercontent.com/69304233/183475365-3bc93570-cbf6-4225-bd15-75cf0e73e07a.PNG)
