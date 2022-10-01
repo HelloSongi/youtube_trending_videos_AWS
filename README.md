@@ -1,21 +1,21 @@
-PROJECT OUTCOMES
+# PROJECT OUTCOMES
 
-1. Understanding the project Overview and Architecture
-2. ETL on Big Data
-3. Data Staging and Data Lake
-4. Creating AWS Lambda Functions
-5. Setting up Glue Jobs for ETL
-6. Using AWS Glue Crawler and AWS Glue Studio
-7. Creating Glue Data Catalog
-8. Converting JSON to Parquet format
-9. Performing Data Transformations (wrangling) and Joins
-10. Visualizing using AWS QuickSight
-
-
+* Understanding the project Overview and Architecture
+* ETL on Big Data
+* Data Staging and Data Lake
+* Creating AWS Lambda Functions
+* Setting up Glue Jobs for ETL
+* Using AWS Glue Crawler and AWS Glue Studio
+* Creating Glue Data Catalog
+* Converting JSON to Parquet format
+* Performing Data Transformations (wrangling) and Joins
+* Visualizing using AWS QuickSight
 
 
 
-GENERAL PROJECT ARCHITECTURE AND DESIGN
+
+
+# GENERAL PROJECT ARCHITECTURE AND DESIGN
 
 ![ARCHITECTURE](https://user-images.githubusercontent.com/69304233/183481878-a0c9b7d6-c611-4a31-8144-548a9789bc4e.PNG)
 
@@ -24,7 +24,7 @@ GENERAL PROJECT ARCHITECTURE AND DESIGN
 
 
 
-CREATING AWS S3 BUCKET AND UPLOADING DATA 
+# CREATING AWS S3 BUCKET AND UPLOADING DATA 
 
 creating both AWS S3 and uploading data to S3 bucket can be done using AWS CLI or the AWS dashboard. 
 USing the AWS cli, data is uploaded using the command: AWS S3 CP /FILE_LOACATION
@@ -35,7 +35,7 @@ USing the AWS cli, data is uploaded using the command: AWS S3 CP /FILE_LOACATION
 ![2](https://user-images.githubusercontent.com/69304233/183395819-dbaa4a35-fc9d-4a5e-a20c-28eaa148474b.PNG)
 
 
-DATA CLEANSING
+# DATA CLEANSING
 
 In this stage, we create a pipline that wrangle and cleans our data to remove erros, redundant data etc
 This pre-processing stage essentially inlvoves tranformin the data from semi-structured data to structured data for easier querying by AWS Athena
@@ -51,13 +51,13 @@ After the data have tranformed from JSON to tabular form, we use AWS Athena to q
 ![5](https://user-images.githubusercontent.com/69304233/183411088-71df5c97-918c-4dbf-89e9-4487657faeda.PNG)
 
 
-MONITORING DIFFERENT JOBS ETL JOBS
+# MONITORING DIFFERENT JOBS ETL JOBS
 
 ![6](https://user-images.githubusercontent.com/69304233/183475149-c543e484-69e3-4531-bd24-65aad2a5bba8.PNG)
 
 
 
-VISUALIZATION DATA IN AWS QUICKSIGHT
+# VISUALIZATION DATA USING QUICKSIGHT
 
 ![7](https://user-images.githubusercontent.com/69304233/183475309-c8ae4b32-1ba2-44bd-b41e-5ce4e868f522.PNG)
 
